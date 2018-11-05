@@ -10,7 +10,8 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.EntityFrameworkCore;
 using RefreshTokensWebApiExample.DataAccess;
 using RefreshTokensWebApiExample.Services;
-
+using NSwag.AspNetCore;
+using NJsonSchema;
 
 namespace CesviAUTH
 {
@@ -33,6 +34,10 @@ namespace CesviAUTH
             services.AddTransient<ITokenService, TokenService>();
             services.AddTransient<IPasswordHasher, PasswordHasher>();
             services.AddMvc();
+
+            // Register the Swagger services
+            services.AddSwagger();
+
             services.AddAuthentication(options =>
             {
                 options.DefaultScheme = "bearer";
@@ -75,6 +80,32 @@ namespace CesviAUTH
             app.UseStaticFiles();
 
             app.UseMvcWithDefaultRoute();
+
+            // Register the Swagger generator and the Swagger UI middlewares
+            app.UseSwaggerUi3WithApiExplorer(settings =>
+            {
+                settings.GeneratorSettings.DefaultPropertyNameHandling =
+                    PropertyNameHandling.CamelCase;
+                settings.PostProcess = document =>
+                {
+                    document.Info.Version = "v1";
+                    document.Info.Title = "Cesvi API";
+                    document.Info.Description = "A cesvi ASP.NET Core web API";
+                    document.Info.TermsOfService = "None";
+                    document.Info.Contact = new NSwag.SwaggerContact
+                    {
+                        Name = "karen Correa",
+                        Email = "kcorrea@cesvi.com",
+                        Url = "https://www.cesvicolombia.com/"
+                    };
+                    document.Info.License = new NSwag.SwaggerLicense
+                    {
+                        Name = "Use under LICX",
+                        Url = "https://example.com/license"
+                    };
+                };
+            });
+
         }
     }
 }

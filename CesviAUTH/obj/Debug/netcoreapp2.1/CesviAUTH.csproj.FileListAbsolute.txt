@@ -12,3 +12,17 @@ C:\Users\jearm\source\repos\CesviAUTH\CesviAUTH\bin\Debug\netcoreapp2.1\CesviAUT
 C:\Users\jearm\source\repos\CesviAUTH\CesviAUTH\obj\Debug\netcoreapp2.1\CesviAUTH.dll
 C:\Users\jearm\source\repos\CesviAUTH\CesviAUTH\obj\Debug\netcoreapp2.1\CesviAUTH.pdb
 C:\Users\jearm\source\repos\CesviAUTH\CesviAUTH\obj\Debug\netcoreapp2.1\CesviAUTH.csprojAssemblyReference.cache
+C:\Users\jearm\OneDrive\Documents\GitHub\jwtCsharp\CesviAUTH\bin\Debug\netcoreapp2.1\CesviAUTH.deps.json
+C:\Users\jearm\OneDrive\Documents\GitHub\jwtCsharp\CesviAUTH\bin\Debug\netcoreapp2.1\CesviAUTH.runtimeconfig.json
+C:\Users\jearm\OneDrive\Documents\GitHub\jwtCsharp\CesviAUTH\bin\Debug\netcoreapp2.1\CesviAUTH.runtimeconfig.dev.json
+C:\Users\jearm\OneDrive\Documents\GitHub\jwtCsharp\CesviAUTH\bin\Debug\netcoreapp2.1\CesviAUTH.dll
+C:\Users\jearm\OneDrive\Documents\GitHub\jwtCsharp\CesviAUTH\bin\Debug\netcoreapp2.1\CesviAUTH.pdb
+C:\Users\jearm\OneDrive\Documents\GitHub\jwtCsharp\CesviAUTH\obj\Debug\netcoreapp2.1\CesviAUTH.csprojAssemblyReference.cache
+C:\Users\jearm\OneDrive\Documents\GitHub\jwtCsharp\CesviAUTH\obj\Debug\netcoreapp2.1\CesviAUTH.csproj.CoreCompileInputs.cache
+C:\Users\jearm\OneDrive\Documents\GitHub\jwtCsharp\CesviAUTH\obj\Debug\netcoreapp2.1\CesviAUTH.RazorAssemblyInfo.cache
+C:\Users\jearm\OneDrive\Documents\GitHub\jwtCsharp\CesviAUTH\obj\Debug\netcoreapp2.1\CesviAUTH.RazorAssemblyInfo.cs
+C:\Users\jearm\OneDrive\Documents\GitHub\jwtCsharp\CesviAUTH\obj\Debug\netcoreapp2.1\CesviAUTH.AssemblyInfoInputs.cache
+C:\Users\jearm\OneDrive\Documents\GitHub\jwtCsharp\CesviAUTH\obj\Debug\netcoreapp2.1\CesviAUTH.AssemblyInfo.cs
+C:\Users\jearm\OneDrive\Documents\GitHub\jwtCsharp\CesviAUTH\obj\Debug\netcoreapp2.1\CesviAUTH.RazorTargetAssemblyInfo.cache
+C:\Users\jearm\OneDrive\Documents\GitHub\jwtCsharp\CesviAUTH\obj\Debug\netcoreapp2.1\CesviAUTH.dll
+C:\Users\jearm\OneDrive\Documents\GitHub\jwtCsharp\CesviAUTH\obj\Debug\netcoreapp2.1\CesviAUTH.pdb
